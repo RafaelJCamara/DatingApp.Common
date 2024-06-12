@@ -43,7 +43,7 @@ jobs:
         dotnet pack src/DatingApp.Common/ \
         --configuration Release \
         -p:PackageVersion=${{ needs.generate-version.outputs.new_version }} \
-        -p:RepositoryUrl=https://github.com/${{github.repository_owner}}/DatingApp.Common \
+        -p:RepositoryUrl=https://github.com/SoulCupid/DatingApp.Common \
         -o packages
 
     - name: Publish
