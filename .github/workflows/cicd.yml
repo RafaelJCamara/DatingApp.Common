@@ -15,7 +15,7 @@ jobs:
       id: tab_bump
       uses: anothrNick/github-tag-action@1.36.0
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}     
+        GITHUB_TOKEN: ${{ secrets.PUSH_NUGET }}     
         INITIAL_VERSION: 1.0.2
         DEFAULT_BUMP: patch
         
